@@ -50,6 +50,7 @@ function getCredentials(elements) {
     var creds = {};
     creds.user = elements.user.value;
     creds.pass = elements.pass.value;
+    creds.url = window.location.host;
     console.log(creds);
     //write credentials
 }
